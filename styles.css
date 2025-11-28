@@ -20,3 +20,53 @@ body{
     padding: 2rem;
     text-align: center;
 }
+
+.subtitle{
+    opacity: 50%;
+}
+
+.content{
+    display: flex; /*Coloca las tarjetas una al lado de la otra*/
+    gap: 3rem; /* Separa las tarjetas*/
+    flex-wrap: wrap; /*Permite*/
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.card{
+    background: #054e0c;
+    padding: 1.5rem;
+    border-radius: 33px;
+    box-shadow: 0.6px 18px rgba(4, 14, 80, 0.914);
+    width: 300px;
+}
+.card h2{
+    margin-bottom: 0.5rem;
+}
+
+.card p{
+    margin-bottom: 1rem;
+    color: #fefdfd;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #fefdfd;
+    border-radius: 8px;
+    color:#000000;
+    justify-content: center;
+}
+
+.card a{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.site-footer{
+    text-align: center;
+    padding: 1rem;
+    color: #fefdfd;
+}
